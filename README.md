@@ -29,7 +29,7 @@ $ sudo iptables -P OUTPUT ACCEPT
 
 ### Ubuntu_Machin-01 Roles command
 
-```$ sudo iptables -F
+$ sudo iptables -F
 $ sudo iptables -X
 $ sudo iptables -A INPUT -i lo -j ACCEPT
 $ sudo iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
@@ -40,9 +40,9 @@ $ sudo iptables -P FORWARD DROP
 $ sudo iptables -P OUTPUT ACCEPT
 # Full Setup For Ubontu Machin-01
 
-### Ubuntu_Machin-2 Roles command
+# Ubuntu_Machin-2 Roles command
 
-```$ sudo iptables -F
+$ sudo iptables -F
 $ sudo iptables -X
 $ sudo iptables -A INPUT -i lo -j ACCEPT
 $ sudo iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
@@ -55,9 +55,9 @@ $ sudo iptables -P OUTPUT ACCEPT
 $ sudo apt update
 $ sudo apt install apache2 -y
 
- More Important All allow Rouls
+# More Important All allow Rouls
 
-```$ sudo iptables -F
+$ sudo iptables -F
 $ sudo iptables -X
 $ sudo iptables -A INPUT -i lo -j ACCEPT
 $ sudo iptables -A OUTPUT -o lo -j ACCEPT
@@ -73,8 +73,8 @@ $ sudo iptables -P OUTPUT DROP
 
 # Chack Your Rules 
 
-#3# Pless Flow me 
-#Thank You 
-#2026###
+# Pless Flow me 
+# Thank You 
+# 2026
 
 

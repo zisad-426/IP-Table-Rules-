@@ -6,7 +6,7 @@
 
 ### My Project Plan
 
-```1️ Agent-01 ↔ Agent-02 ping করবে
+`1️ Agent-01 ↔ Agent-02 ping করবে
 2 Agent-01 → Agent-02 শুধু HTTP (80) access পাবে
 3️ Agent-01 → Agent-02 SSH / অন্য কোনো protocol পাবে না
 4️ Agent-02 → Agent-01 SSH পাবে না
@@ -14,9 +14,9 @@
 6️ সব কিছু এই 2টা VM এর ভেতরেই, বাইরে কোনো access দরকার নাই
 7️ Termius যেন block না হয়
 
-### All rules clear $ Commands for one click
+### All rules clear $ Commands for one click##
 
-```$ sudo iptables -F
+`$ sudo iptables -F
 $ sudo iptables -X
 $ sudo iptables -t nat -F
 $ sudo iptables -t nat -X
@@ -24,7 +24,7 @@ $ sudo iptables -t mangle -F
 $ sudo iptables -t mangle -X
 $ sudo iptables -P INPUT ACCEPT
 $ sudo iptables -P FORWARD ACCEPT
-$ sudo iptables -P OUTPUT ACCEPT
+$ sudo iptables -P OUTPUT ACCEPT`
 
 ### Ubuntu_Machin-01 Roles command
 

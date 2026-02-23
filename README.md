@@ -6,7 +6,7 @@
 I have finished setting up my 2 Ubuntu servers, one server can ping another server, now my plan is that in the same VM, the first Ubuntu can ping the second Ubuntu, and the second Ubuntu can ping the first Ubuntu, again the first Ubuntu can access the second, can access HTTP port-80, can't do other protocols and can't access anything, but Ubuntu 1 can't ping Ubuntu 2 or anything else, can't access, is this possible? Now I'm not able to connect to the terminals again. It will only be inside the 2 boxes, there will be no problems outside and everything will be done.
 
 # **My Project Plan**
-
+```
 -1️ Agent-01 ↔ Agent-02 ping করবে
 -2 Agent-01 → Agent-02 শুধু HTTP (80) access পাবে
 -3️ Agent-01 → Agent-02 SSH / অন্য কোনো protocol পাবে না
@@ -16,7 +16,7 @@ I have finished setting up my 2 Ubuntu servers, one server can ping another serv
 -7️ Termius যেন block না হয়
 
 #All rules clear $ Commands for one click
-```
+
 $ sudo iptables -F
 $ sudo iptables -X
 $ sudo iptables -t nat -F

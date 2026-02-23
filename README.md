@@ -15,8 +15,8 @@ I have finished setting up my 2 Ubuntu servers, one server can ping another serv
 -6️ সব কিছু এই 2টা VM এর ভেতরেই, বাইরে কোনো access দরকার নাই
 -7️ Termius যেন block না হয়
 
-# **All rules clear $ Commands for one click**
-
+#All rules clear $ Commands for one click
+```
 $ sudo iptables -F
 $ sudo iptables -X
 $ sudo iptables -t nat -F
@@ -29,7 +29,7 @@ $ sudo iptables -P OUTPUT ACCEPT
 
 #Ubuntu_Machin-01 Roles command
 
-`$ sudo iptables -F
+$ sudo iptables -F
 $ sudo iptables -X
 $ sudo iptables -A INPUT -i lo -j ACCEPT
 $ sudo iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
@@ -38,7 +38,8 @@ $ sudo iptables -A INPUT -p icmp -s 192.168.33.132 -j ACCEPT
 $ sudo iptables -P INPUT DROP
 $ sudo iptables -P FORWARD DROP
 $ sudo iptables -P OUTPUT ACCEPT
-# Full Setup For Ubontu Machin-01`
+
+# Full Setup For Ubontu Machin-01
 
 #Ubuntu_Machin-2 Roles command
 
@@ -67,15 +68,12 @@ $ sudo iptables -A OUTPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
 $ sudo iptables -A INPUT  -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
 $ sudo iptables -P INPUT DROP
 $ sudo iptables -P FORWARD DROP
-$ sudo iptables -P OUTPUT DROP`
-
+$ sudo iptables -P OUTPUT DROP```
+`
 
 #Chack Your Rules
 
 #Pless Flow me
 #Thank You 
 #2026
-sudo iptables -X
-
-sudo iptables -t nat -F
 

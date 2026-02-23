@@ -7,7 +7,7 @@ I have finished setting up my 2 Ubuntu servers, one server can ping another serv
 
 # **My Project Plan**
 
-`-1️ Agent-01 ↔ Agent-02 ping করবে
+```-1️ Agent-01 ↔ Agent-02 ping করবে
 -2 Agent-01 → Agent-02 শুধু HTTP (80) access পাবে
 -3️ Agent-01 → Agent-02 SSH / অন্য কোনো protocol পাবে না
 -4️ Agent-02 → Agent-01 SSH পাবে না

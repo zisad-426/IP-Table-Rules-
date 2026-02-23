@@ -15,7 +15,7 @@ I have finished setting up my 2 Ubuntu servers, one server can ping another serv
 -6️ সব কিছু এই 2টা VM এর ভেতরেই, বাইরে কোনো access দরকার নাই
 -7️ Termius যেন block না হয়
 
-#*All rules clear $ Commands for one click*
+#All rules clear $ Commands for one click
 
 $ sudo iptables -F
 $ sudo iptables -X
